@@ -5,7 +5,7 @@ class Author
 
   def initialize(name)
     @name = name
-    @songs = []
+    @posts = []
   end
 
   def add_song(song)
@@ -21,8 +21,8 @@ class Author
     @@song_count +=1
   end
 
-  def songs
-    @songs 
+  def posts
+    @posts 
   end
 
   def self.post_count_count
